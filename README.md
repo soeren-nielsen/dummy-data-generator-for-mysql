@@ -1,1 +1,1 @@
-# dummy-data-generator-for-SQL
+# dummy-data-generator-for-MySQL
