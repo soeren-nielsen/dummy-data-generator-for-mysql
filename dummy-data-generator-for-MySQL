@@ -26,7 +26,7 @@ df_fake_data=pd.DataFrame(fake_data)
 
 # Connecting to local database using sqlalchemy library
 # Specify username, password and database
-engine = create_engine('mysql://root:123456789@localhost/testdb', echo=False)
+engine = create_engine('mysql://[user]:[password]@localhost/[database]', echo=False)
 
 # Saves the pandas dataframe in the specified database and creates a new table called user
 df_fake_data.to_sql('user', con=engine,index=False)
