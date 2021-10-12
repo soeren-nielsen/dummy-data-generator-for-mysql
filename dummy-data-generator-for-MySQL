@@ -1,5 +1,3 @@
-# Tutorial from: https://towardsdatascience.com/generating-random-data-into-a-database-using-python-fd2f7d54024e
-
 # Importing libraries
 import pandas as pd
 from faker import Faker
